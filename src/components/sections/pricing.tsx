@@ -11,9 +11,7 @@ export default function PricingSection() {
             Pricing that Scales with You
           </h1>
           <p>
-            Gemini is evolving to be more than just the models. It supports an
-            entire ecosystem to the APIs and platforms helping developers and businesses
-            innovate.
+            Our project management tool helps individuals and teams organize projects, manage tasks, and collaborate efficiently—all in one place.
           </p>
         </div>
 
