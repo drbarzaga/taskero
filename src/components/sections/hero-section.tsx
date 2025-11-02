@@ -6,7 +6,7 @@ import { ArrowRight, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import ModeToggle from "../mode-toggle";
-import FreeTrailButton from "../free-trail-button";
+import FreeTrialButton from "../free-trial-button";
 
 const menuItems = [
   { name: "Features", href: "#" },
@@ -111,7 +111,7 @@ export default function HeroSection() {
                 </p>
 
                 <div className="mt-8">
-                  <FreeTrailButton />
+                  <FreeTrialButton />
                 </div>
               </div>
             </div>
