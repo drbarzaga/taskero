@@ -89,7 +89,7 @@ export default function HeroSection() {
                   <span className="bg-muted rounded-[calc(var(--radius)-0.25rem)] px-2 py-1 text-xs">
                     New
                   </span>
-                  <span className="text-sm">Introduction Tailark Html</span>
+                  <span className="text-sm">Introducing Tailark HTML</span>
                   <span className="bg-(--color-border) block h-4 w-px"></span>
 
                   <ArrowRight className="size-4" />
