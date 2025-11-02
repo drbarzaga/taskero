@@ -12,7 +12,7 @@ export default function PricingSection() {
           </h1>
           <p>
             Gemini is evolving to be more than just the models. It supports an
-            entire to the APIs and platforms helping developers and businesses
+            entire ecosystem to the APIs and platforms helping developers and businesses
             innovate.
           </p>
         </div>
