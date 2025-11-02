@@ -2,15 +2,10 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import {
   ChartColumn,
   CrownIcon,
-  FileText,
   FolderKanban,
   ListCheck,
-  MessageCircle,
-  Settings2,
   ShieldCheck,
-  Sparkles,
   Users,
-  Zap,
 } from "lucide-react";
 import { ReactNode } from "react";
 

@@ -2,9 +2,10 @@
 import React from "react";
 import Link from "next/link";
 import { Logo } from "@/components/logo";
-import { ArrowRight, Menu, Rocket, X } from "lucide-react";
+import { ArrowRight, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import ModeToggle from "../mode-toggle";
 
 const menuItems = [
   { name: "Features", href: "#" },
@@ -61,6 +62,7 @@ export default function HeroSection() {
                 </div>
 
                 <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:pl-6">
+                  <ModeToggle />
                   <Button asChild variant="outline" size="sm">
                     <Link href="#">
                       <span>Login</span>
@@ -110,8 +112,8 @@ export default function HeroSection() {
                 <div className="mt-8">
                   <Button size="lg" asChild>
                     <Link href="#">
-                      <Rocket className="relative size-4" />
                       <span className="text-nowrap">Start Free Trial</span>
+                      <ArrowRight className="relative size-4" />
                     </Link>
                   </Button>
                 </div>

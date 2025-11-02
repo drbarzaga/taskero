@@ -1,7 +1,7 @@
-import CallToActionSection from "@/components/call-to-action";
-import FeaturesSection from "@/components/features";
-import HeroSection from "@/components/hero-section";
-import PricingSection from "@/components/pricing";
+import CallToActionSection from "@/components/sections/call-to-action";
+import FeaturesSection from "@/components/sections/features";
+import HeroSection from "@/components/sections/hero-section";
+import PricingSection from "@/components/sections/pricing";
 
 export default function Home() {
   return (
