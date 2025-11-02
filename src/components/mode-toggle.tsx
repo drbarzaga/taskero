@@ -14,7 +14,7 @@ export default function ModeToggle() {
     <Button
       ref={ref}
       variant="ghost"
-      className="group/toggle h-8 w-8 px-0 cursor-pointer"
+      className="group/toggle h-8 w-8 px-0"
       onClick={toggleTheme}
     >
       {theme === "dark" ? (
