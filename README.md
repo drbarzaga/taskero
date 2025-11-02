@@ -1,64 +1,84 @@
+<div align="center">
+
 # Taskero
 
-**Streamlined project management for modern teams**
+![Next.js](https://img.shields.io/badge/-Next.js-blue?logo=nextjs&logoColor=white) ![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-blue?logo=typescript&logoColor=white) ![License](https://img.shields.io/badge/license-MIT-green)
 
----
+<p align="center">
+Empowering modern teams with streamlined project management. Built with Next.js, React, and TypeScript for a responsive and intuitive web experience, Taskero offers a comprehensive suite of features to enhance collaboration and boost productivity. Manage your projects, track progress, and collaborate seamlessly, all within a single, powerful platform.
+</p>
 
-Taskero is a modern project management application designed to help teams collaborate efficiently and manage their tasks seamlessly. Built with simplicity and productivity in mind, Taskero empowers teams to stay organized and focused on what matters most.
+</div>
 
 ## ✨ Features
 
-- 📋 **Intuitive Task Management** - Organize and track your projects effortlessly
-- 👥 **Team Collaboration** - Work together seamlessly with your team members
-- 🚀 **Fast & Responsive** - Built for speed and performance
-- 🔒 **Secure** - Your data is safe and protected
+- 🗄️ **Database** - Robust data persistence and management
+- 🕸️ **Web** - Modern, responsive web interface
+
+## 🛠️ Tech Stack
+
+- **Next.js** - React framework for production
+- **React** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **Drizzle ORM** - Database ORM for PostgreSQL
+- **Neon Database** - Serverless PostgreSQL database
+- **Shadcn UI** - UI library for building consistent and beautiful interfaces
+- **Lucide Icons** - Icon library for icons
+- **ESLint** - Linting for JavaScript
+- **Prettier** - Formatting for JavaScript
+- **Husky** - Pre-commit hooks for Git
+- **Better-Auth** - Authentication for TypeScript projects
 
 ## 🚀 Getting Started
 
-This project uses `nvm` (Node Version Manager). Make sure you have `nvm` installed.
-
 ### Prerequisites
 
-- Node.js (via `nvm`)
-- A PostgreSQL database connection
+- Node.js (v18 or higher recommended)
+- npm or yarn package manager
 
 ### Installation
 
-1. **Clone the repository**
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/drbarzaga/taskero.git
    cd taskero
    ```
 
-2. **Install dependencies**
+2. Install dependencies:
 
    ```bash
-   nvm use && npm install
+   npm install
    ```
 
-3. **Set up environment variables**
-
-   Create a `.env` file in the root directory:
-
-   ```env
-   DATABASE_URL=your_postgres_connection_string
-   ```
-
-4. **Start the development server**
+3. Start the development server:
 
    ```bash
-   nvm use && npm run dev
+   npm run dev
    ```
 
-5. **Open your browser**
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
+## 📜 Available Scripts
 
-## 📝 License
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 👥 Contributing
 
----
+Contributions are welcome! Here's how you can help:
 
-Made with ❤️ for modern teams
+1. **Fork** the repository
+2. **Clone** your fork: `git clone https://github.com/drbarzaga/taskero.git`
+3. **Create** a new branch: `git checkout -b feature/your-feature`
+4. **Commit** your changes: `git commit -am 'Add some feature'`
+5. **Push** to your branch: `git push origin feature/your-feature`
+6. **Open** a pull request
+
+Please ensure your code follows the project's style guidelines and includes tests where applicable.
+
+## 📜 License
+
+This project is licensed under the MIT License.
