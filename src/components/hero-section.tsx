@@ -96,12 +96,11 @@ export default function HeroSection() {
                 </Link>
 
                 <h1 className="mt-8 text-balance text-4xl font-semibold md:text-5xl xl:text-6xl xl:[line-height:1.125]">
-                  Project Management reimagined
+                  Project Management Reimagined
                 </h1>
                 <p className="mx-auto mt-8 hidden max-w-2xl text-wrap text-lg sm:block">
-                  Tailwindcss highly customizable components for building modern
-                  websites and applications that look and feel the way you mean
-                  it.
+                  The ultimate platform for modern teams who need to organize,
+                  collaborate, and achieve their goals efficiently..
                 </p>
                 <p className="mx-auto mt-6 max-w-2xl text-wrap sm:hidden">
                   Highly customizable components for building modern websites
@@ -112,7 +111,7 @@ export default function HeroSection() {
                   <Button size="lg" asChild>
                     <Link href="#">
                       <Rocket className="relative size-4" />
-                      <span className="text-nowrap">Start Building</span>
+                      <span className="text-nowrap">Start Free Trial</span>
                     </Link>
                   </Button>
                 </div>
