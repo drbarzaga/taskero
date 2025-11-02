@@ -36,7 +36,7 @@ export default function HeroSection() {
 
                 <button
                   onClick={() => setMenuState(!menuState)}
-                  aria-label={menuState == true ? "Close Menu" : "Open Menu"}
+                  aria-label={menuState ? "Close Menu" : "Open Menu"}
                   className="relative z-20 -m-2.5 -mr-4 block cursor-pointer p-2.5 lg:hidden"
                 >
                   <Menu className="in-data-[state=active]:rotate-180 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0 m-auto size-6 duration-200" />
@@ -68,7 +68,7 @@ export default function HeroSection() {
                   </Button>
                   <Button asChild size="sm">
                     <Link href="#">
-                      <span>Login</span>
+                      <span>Sign Up</span>
                     </Link>
                   </Button>
                 </div>
@@ -89,7 +89,7 @@ export default function HeroSection() {
                   <span className="bg-muted rounded-[calc(var(--radius)-0.25rem)] px-2 py-1 text-xs">
                     New
                   </span>
-                  <span className="text-sm">Introduction Tailark Html</span>
+                  <span className="text-sm">Introducing Tailark HTML</span>
                   <span className="bg-(--color-border) block h-4 w-px"></span>
 
                   <ArrowRight className="size-4" />
