@@ -15,20 +15,6 @@ Empowering modern teams with streamlined project management. Built with Next.js,
 - 🗄️ **Database** - Robust data persistence and management
 - 🕸️ **Web** - Modern, responsive web interface
 
-## 🛠️ Tech Stack
-
-- **Next.js** - React framework for production
-- **React** - UI library
-- **TypeScript** - Type-safe JavaScript
-- **Drizzle ORM** - Database ORM for PostgreSQL
-- **Neon Database** - Serverless PostgreSQL database
-- **Shadcn UI** - UI library for building consistent and beautiful interfaces
-- **Lucide Icons** - Icon library for icons
-- **ESLint** - Linting for JavaScript
-- **Prettier** - Formatting for JavaScript
-- **Husky** - Pre-commit hooks for Git
-- **Better-Auth** - Authentication for TypeScript projects
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -78,6 +64,20 @@ Contributions are welcome! Here's how you can help:
 6. **Open** a pull request
 
 Please ensure your code follows the project's style guidelines and includes tests where applicable.
+
+## 🛠️ Tech Stack
+
+- **Next.js** - React framework for production
+- **React** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **Drizzle ORM** - Database ORM for PostgreSQL
+- **Neon Database** - Serverless PostgreSQL database
+- **Shadcn UI** - UI library for building consistent and beautiful interfaces
+- **Lucide Icons** - Icon library for icons
+- **ESLint** - Linting for JavaScript
+- **Prettier** - Formatting for JavaScript
+- **Husky** - Pre-commit hooks for Git
+- **Better-Auth** - Authentication for TypeScript projects
 
 ## 📜 License
 
