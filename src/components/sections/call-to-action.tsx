@@ -1,4 +1,4 @@
-import FreeTrailButton from "../free-trail-button";
+import FreeTrialButton from "../free-trial-button";
 
 export default function CallToActionSection() {
   return (
@@ -13,7 +13,7 @@ export default function CallToActionSection() {
           </p>
 
           <div className="mt-12 flex flex-wrap justify-center gap-4">
-            <FreeTrailButton />
+            <FreeTrialButton />
           </div>
         </div>
       </div>
