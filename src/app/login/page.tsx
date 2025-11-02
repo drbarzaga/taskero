@@ -17,7 +17,7 @@ export default function LoginPage() {
               <LogoIcon />
             </Link>
             <h1 className="mb-1 mt-4 text-xl font-semibold">
-              Sign In to {process.env.NEXT_PUBLIC_APP_NAME!}
+              Sign In to {process.env.NEXT_PUBLIC_COMPANY_NAME!}
             </h1>
             <p className="text-sm">Welcome back! Sign in to continue</p>
           </div>
