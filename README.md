@@ -45,7 +45,7 @@ Empowering modern teams with streamlined project management. Built with Next.js,
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## 📜 Available Scripts
+## 📦 Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
@@ -61,9 +61,13 @@ Contributions are welcome! Here's how you can help:
 3. **Create** a new branch: `git checkout -b feature/your-feature`
 4. **Commit** your changes: `git commit -am 'Add some feature'`
 5. **Push** to your branch: `git push origin feature/your-feature`
-6. **Open** a pull request
+6. **Open** a pull request using our [PR template](.github/pull_request_template.md)
 
 Please ensure your code follows the project's style guidelines and includes tests where applicable.
+
+### Code of Conduct
+
+This project adheres to a [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the project maintainers.
 
 ## 🛠️ Tech Stack
 
