@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-export default function FreeTrailButton() {
+export default function FreeTrialButton() {
   return (
     <Button
       size="lg"
