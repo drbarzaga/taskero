@@ -17,7 +17,7 @@ export default function LoginPage() {
               <LogoIcon />
             </Link>
             <h1 className="mb-1 mt-4 text-xl font-semibold">
-              Create a {process.env.NEXT_PUBLIC_APP_NAME!} Account
+              Create a {process.env.NEXT_PUBLIC_COMPANY_NAME!} Account
             </h1>
             <p className="text-sm">Welcome! Create an account to get started</p>
           </div>
