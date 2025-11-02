@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Check } from "lucide-react";
+import { Check, CrownIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function PricingSection() {
@@ -11,7 +11,9 @@ export default function PricingSection() {
             Pricing that Scales with You
           </h1>
           <p>
-            Our project management tool helps individuals and teams organize projects, manage tasks, and collaborate efficiently—all in one place.
+            Our project management tool helps individuals and teams organize
+            projects, manage tasks, and collaborate efficiently—all in one
+            place.
           </p>
         </div>
 
@@ -21,7 +23,7 @@ export default function PricingSection() {
               <div>
                 <h2 className="font-medium">Free</h2>
                 <span className="my-3 block text-2xl font-semibold">
-                  $0 / mo
+                  $0 / month
                 </span>
                 <p className="text-muted-foreground text-sm">
                   Perfect for personal use
@@ -53,7 +55,7 @@ export default function PricingSection() {
                 <div>
                   <h2 className="font-medium">Pro</h2>
                   <span className="my-3 block text-2xl font-semibold">
-                    $9 / mo
+                    $9.99 / month
                   </span>
                   <p className="text-muted-foreground text-sm">
                     Perfect for teams and businesses
@@ -61,7 +63,10 @@ export default function PricingSection() {
                 </div>
 
                 <Button asChild className="w-full">
-                  <Link href="">Get Started</Link>
+                  <Link href="">
+                    <CrownIcon className="size-4" />
+                    Upgrade to Pro
+                  </Link>
                 </Button>
               </div>
 
