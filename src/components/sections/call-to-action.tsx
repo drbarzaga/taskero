@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import FreeTrailButton from "../free-trail-button";
 
 export default function CallToActionSection() {
   return (
@@ -7,22 +6,14 @@ export default function CallToActionSection() {
       <div className="mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-            Start Managing Your Projects
+            Ready to transform your workflow?
           </h2>
-          <p className="mt-4">Libero sapiente aliquam quibusdam aspernatur.</p>
+          <p className="mt-4">
+            Start your free trial today and experience the power of Taskero.
+          </p>
 
           <div className="mt-12 flex flex-wrap justify-center gap-4">
-            <Button asChild size="lg">
-              <Link href="/">
-                <span>Get Started</span>
-              </Link>
-            </Button>
-
-            <Button asChild size="lg" variant="outline">
-              <Link href="/">
-                <span>Book Demo</span>
-              </Link>
-            </Button>
+            <FreeTrailButton />
           </div>
         </div>
       </div>

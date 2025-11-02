@@ -25,7 +25,9 @@ export default function PricingSection() {
                 <span className="my-3 block text-2xl font-semibold">
                   $0 / mo
                 </span>
-                <p className="text-muted-foreground text-sm">Per editor</p>
+                <p className="text-muted-foreground text-sm">
+                  Perfect for personal use
+                </p>
               </div>
 
               <Button asChild variant="outline" className="w-full">
@@ -35,16 +37,14 @@ export default function PricingSection() {
               <hr className="border-dashed" />
 
               <ul className="list-outside space-y-3 text-sm">
-                {[
-                  "Basic Analytics Dashboard",
-                  "5GB Cloud Storage",
-                  "Email and Chat Support",
-                ].map((item, index) => (
-                  <li key={index} className="flex items-center gap-2">
-                    <Check className="size-3" />
-                    {item}
-                  </li>
-                ))}
+                {["One Project", "Unlimited Tasks", "All Basic Features"].map(
+                  (item, index) => (
+                    <li key={index} className="flex items-center gap-2">
+                      <Check className="size-3" />
+                      {item}
+                    </li>
+                  )
+                )}
               </ul>
             </div>
           </div>
@@ -55,9 +55,11 @@ export default function PricingSection() {
                 <div>
                   <h2 className="font-medium">Pro</h2>
                   <span className="my-3 block text-2xl font-semibold">
-                    $19 / mo
+                    $9 / mo
                   </span>
-                  <p className="text-muted-foreground text-sm">Per editor</p>
+                  <p className="text-muted-foreground text-sm">
+                    Perfect for teams and businesses
+                  </p>
                 </div>
 
                 <Button asChild className="w-full">
@@ -72,16 +74,14 @@ export default function PricingSection() {
 
                 <ul className="mt-4 list-outside space-y-3 text-sm">
                   {[
-                    "Everything in Free Plan",
-                    "5GB Cloud Storage",
-                    "Email and Chat Support",
-                    "Access to Community Forum",
-                    "Single User Access",
-                    "Access to Basic Templates",
-                    "Mobile App Access",
-                    "1 Custom Report Per Month",
-                    "Monthly Product Updates",
-                    "Standard Security Features",
+                    "Unlimited Projects",
+                    "Unlimited Tasks",
+                    "All Basic Features",
+                    "All Pro Features",
+                    "Notes (soon)",
+                    "Integrations (soon)",
+                    "Meetings (soon)",
+                    "Calendar (soon)",
                   ].map((item, index) => (
                     <li key={index} className="flex items-center gap-2">
                       <Check className="size-3" />
