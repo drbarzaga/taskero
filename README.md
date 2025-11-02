@@ -2,11 +2,15 @@
 
 # Taskero
 
-![Next.js](https://img.shields.io/badge/-Next.js-blue?logo=nextjs&logoColor=white) ![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-blue?logo=typescript&logoColor=white) ![License](https://img.shields.io/badge/license-MIT-green)
-
 <p align="center">
 Empowering modern teams with streamlined project management. Built with Next.js, React, and TypeScript for a responsive and intuitive web experience, Taskero offers a comprehensive suite of features to enhance collaboration and boost productivity. Manage your projects, track progress, and collaborate seamlessly, all within a single, powerful platform.
 </p>
+
+![GitHub stars](https://img.shields.io/github/stars/drbarzaga/taskero?style=social)
+![GitHub forks](https://img.shields.io/github/forks/drbarzaga/taskero?style=social)
+![GitHub issues](https://img.shields.io/github/issues/drbarzaga/taskero)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/drbarzaga/taskero)
+![GitHub license](https://img.shields.io/github/license/drbarzaga/taskero)
 
 </div>
 
